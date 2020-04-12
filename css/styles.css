@@ -1,0 +1,78 @@
+/*import fonts from google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Gugi|Lato|Roboto|Sofia&display=swap');
+
+
+:root{
+    --background-color: #080a0a;
+    --dark-grey: #252424;
+    --orange: #f37123;
+    --dark-orange: #f05425;
+    --text-color: #d3d3d3;
+    --border: #080a0a;
+    --roboto: Roboto, sans-serif;
+    --advent: Advent, sans-serif;
+    --gugi: Gugi, cursive;
+    --sofia: Sofia, cursive;
+}
+body{
+    background-color: var(--background-color);
+}
+
+.primary-color{
+    color: var(--orange);
+}
+
+.bg-primary-color{
+    background-color: var(--background-color) !important;
+}
+
+.text-color{
+    color: var(--text-color);
+}
+
+.font-roboto{
+    font-family: var(--roboto);
+}
+
+/*header*/
+header{
+    background-color: var(--background-color);
+    font-family: var(--roboto);
+}
+
+h1.site-title{
+    font-family: var(--gugi);
+}
+
+.container.dropdown-toggle,
+.container.dropdown-item{
+    font-size: 0.7em;
+}
+
+.header-links a{
+    font-size: 0.9em;
+    text-decoration: none;
+    color: white;
+}
+
+/*Navigation menu*/
+.navbar-nav{
+    padding: 0.8em 0em;
+}
+
+.navbar-nav .nav-link{
+    font-size: 1.1em;
+    color: var(--text-color);
+}
+
+.navbar-nav .nav-link{
+    padding: 0em 1em;
+}
+
+.nav-item{
+    padding: 0em 1em;
+}
+
+.navbar-nav .basket-icon{
+    margin-right: 5.5rem !important;
+}
