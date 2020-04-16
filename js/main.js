@@ -4,7 +4,19 @@ $(".slider-one")
 .slick({
     autoplay:true,
     autoplaySpeed:3000,
-    prevArrow: ".site-slider.slider-btn.prev",
-    nextArrow: ".site-slider.slider-btn.next",
+    prevArrow: '',
+    nextArrow: '',
     dots: true
+});
+
+
+$(".slider-two")
+.not("slick-initialized")
+.slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 2,
+    prevArrow:".site-slider-two.prev",
+    nextArrow:".site-slider-two.next",
+    autoplay: 3000
 });
