@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Gugi|Lato|Roboto|Sofia&display=swap');
+
+
+:root{
+    --background-color: #080a0a;
+    --dark-blue: #070720;
+    --dark-grey: #252424;
+    --orange: #f37123;
+    --dark-orange: #f05425;
+    --text-color: #d3d3d3;
+    --border: #080a0a;
+    --roboto: Roboto, sans-serif;
+    --advent: Advent+Pro, sans-serif;
+    --gugi: Gugi, cursive;
+    --sofia: Sofia, cursive;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/Artboard\ 1.png);
+    background-color: var(--background-color);
+    background-position: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.centerdiv{
+    font-family: var(--sofia);
+    width: 380px;
+    height: 500px;
+    background-color: var(--dark-blue);
+    color: var(--background-color);
+    background-repeat: no-repeat;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 1px 6px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.24);
+    box-sizing: border-box;
+}
+
+#avatar{
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    top: -60px;
+    left: calc((380px - 120px) / 2);
+}
+
+.inputbox{
+    padding: 0.8rem 1.9rem;
+    border-radius: 4rem;
+    font-size: x-large;
+    background-color: white;
+    color:  var(--background-color);
+    left: 50%;
+    position: relative;
+    transform: translate(-50%,-50%);
+}
+
+.inputbox:hover{
+    background-color: var(--text-color);
+}
+
+.loginbox{
+    padding: 0.4rem 0.9rem;
+    border-radius: 4rem;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%,-50%);
+}
+
+.loginbox:hover{
+    background-color: var(--text-color);
+}
+
+a{
+    position: relative;
+    transform: translate(-50%,-50%);
+    bottom: 30px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin: 0 0 30px 0;
+    padding: 0;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%,-50%);
+}
