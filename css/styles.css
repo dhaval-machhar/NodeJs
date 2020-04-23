@@ -100,7 +100,7 @@ h1.site-title{
     width: 0.5rem;
     height: 0.5rem;
     padding: 0;
-    border: none;
+    border: none; 
     background-color: white;
     text-indent: -99999px;
     border-radius: 100%;
@@ -134,7 +134,7 @@ h1.cat1{
     overflow: hidden;
 }
 
-.site-slider-two .slider-two span{
+.btn-span{
     padding: 0.8rem 1.9rem;
     border-radius: 4rem;
     font-family: var(--advent);
@@ -143,6 +143,87 @@ h1.cat1{
     color:  var(--background-color);
 }
 
-.site-slider-two .slick-track .product:hover span{
+.add{
+    padding: 0.8rem 1.9rem;
+}
+
+.site-slider-two .slick-track .product:hover .btn-span{
     background-color: grey;
 }
+
+
+/*category section*/
+.category-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  
+  
+  .category-column {
+    flex: 25%;
+    max-width: 100%;
+    padding: 0 4px;
+  }
+  
+  .category-column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  
+  @media screen and (max-width: 800px) {
+    .category-column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .category-column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .category-div{
+      position: relative;
+      width: 800px;
+      height: 600px;
+  }
+
+  .image{
+      width: 800px;
+      height: 600px;
+  }
+
+  .overlay{
+      position: absolute;
+      transition: all 0.3s ease;
+      opacity: 0;
+      background-color: var(--background-color);
+  }
+
+  .category-div:hover .overlay{
+      opacity: 0.7;
+  }
+
+  .text{
+      font-family: var(--sofia);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      font-size: 33px;
+      text-align: center;
+  }
+
+  .overlayFade{
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color: var(--background-color);
+  }
