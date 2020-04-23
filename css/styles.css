@@ -163,12 +163,11 @@ h1.cat1{
   .category-column {
     flex: 25%;
     max-width: 100%;
-    padding: 0 4px;
+    padding: 0;
   }
   
   .category-column img {
     margin-top: 8px;
-    vertical-align: middle;
     width: 100%;
     padding: 10px;
   }
