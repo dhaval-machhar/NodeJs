@@ -226,3 +226,8 @@ h1.cat1{
       left: 0;
       background-color: var(--background-color);
   }
+
+  #id1{
+      display: flex;
+      float: left;
+  }
