@@ -261,20 +261,6 @@ h1.cat1{
       padding: 0.6rem;
       margin: 0.5rem;
       border-radius: 60px;
-      float: left;
-      width: 50%;
-  }
-
-  .category2-row:after{
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  @media screen and (max-width: 800px) {
-    .category2-column {
-      width: 100%;
-    }
   }
 
   .category2-column:hover{
