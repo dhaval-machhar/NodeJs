@@ -175,15 +175,15 @@ h1.cat1{
   
   @media screen and (max-width: 800px) {
     .category-column {
-      flex: 50%;
+      flex: 25%;
       max-width: 50%;
     }
   }
   
   @media screen and (max-width: 600px) {
     .category-column {
-      flex: 100%;
-      max-width: 100%;
+      flex: 50%;
+      max-width: 50%;
     }
   }
 
@@ -230,4 +230,53 @@ h1.cat1{
   #id1{
       display: flex;
       float: left;
+  }
+
+  /*category 2*/
+  .category2-image{
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+
+  .category2-text{
+      text-align: center;
+      font-size: 36px;
+  }
+
+  .category2-text2{
+      text-align: center;
+      font-size: 30px;
+  }
+
+  .category2-add{
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .category2-column{
+      background-color: var(--text-color);
+      padding: 0.6rem;
+      margin: 0.5rem;
+      border-radius: 60px;
+      float: left;
+      width: 50%;
+  }
+
+  .category2-row:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 800px) {
+    .category2-column {
+      width: 100%;
+    }
+  }
+
+  .category2-column:hover{
+    opacity: 0.7;
   }
