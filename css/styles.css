@@ -40,8 +40,9 @@ header{
     font-family: var(--roboto);
 }
 
-h1.site-title{
+span.site-title{
     font-family: var(--gugi);
+    font-size: 60px;
 }
 
 .container.dropdown-toggle,
@@ -50,7 +51,7 @@ h1.site-title{
 }
 
 .header-links a{
-    font-size: 0.9em;
+    font-size: 17px;
     text-decoration: none;
     color: white;
 }
@@ -159,7 +160,6 @@ h1.cat1{
     padding: 10px;
   }
   
-  
   .category-column {
     flex: 25%;
     max-width: 100%;
@@ -260,7 +260,7 @@ h1.cat1{
       background-color: var(--text-color);
       padding: 0.6rem;
       margin: 0.5rem;
-      border-radius: 60px;
+      border-radius: 70px;
   }
 
   .category2-column:hover{
