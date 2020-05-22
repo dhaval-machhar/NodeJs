@@ -40,7 +40,7 @@ header{
     font-family: var(--roboto);
 }
 
-span.site-title{
+.site-title{
     font-family: var(--gugi);
     font-size: 60px;
 }
@@ -51,7 +51,7 @@ span.site-title{
 }
 
 .header-links a{
-    font-size: 17px;
+    font-size: 16px;
     text-decoration: none;
     color: white;
 }
@@ -261,8 +261,13 @@ h1.cat1{
       padding: 0.6rem;
       margin: 0.5rem;
       border-radius: 70px;
+      display: block;
   }
 
   .category2-column:hover{
     opacity: 0.7;
+  }
+
+  .category-row{
+      display: inline-block;
   }
