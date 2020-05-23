@@ -115,6 +115,7 @@ header{
 
 h1.cat1{
     font-family: var(--gugi);
+    font-size: 45px;
 }
 
 /*second slider*/
@@ -271,3 +272,16 @@ h1.cat1{
   .category-row{
       display: inline-block;
   }
+
+  /*slider black*/
+  
+
+
+
+
+  /*vintage slider*/
+  .slider-four .vintage img{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+}
